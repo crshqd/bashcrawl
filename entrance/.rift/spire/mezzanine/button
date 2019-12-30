@@ -11,26 +11,22 @@
 # When you're ready to continue playing the game, though, stick to
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
-#
-echo "There's a pile of old **rags**."
-echo "They are old and worn with age,"
-echo "and probably fell off of some poor adventurer."
-printf "\n"
-echo "Do you want to take the rags?"
+# 
+
+echo "You see a glowing red button with what appears to
+      be an arrow pointing up inscribed on its face."
+echo
+echo "Are you tempted to press the button?  y/n"
 read RESP
 
-if [ $RESP = "y" -o $RESP = "Y" ];then
-    echo "As you take the rags from the floor, you find"
-    echo "a salted fish, probably from the rations of"
-    echo "the former owner of these rags."
-    echo "Prepend these item to your inventory:"
-    printf "\n"
-    echo "$ export I=rags,fish,\$I"
-    printf "\n"
-    echo "Remember, you can check your inventory:"
-    printf "\n"
-    echo "echo \$I"
-    printf "\n"
+if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
+    echo "The doors slide open, revealing a small chamber."
+    echo "UP" > .elevator/.direction
+    ln -sf .elevator door &> /dev/null && \
+        sleep 10 && \
+        echo "The doors slide closed." && \
+        unlink door &
+    echo
 fi
 #
 #
@@ -84,7 +80,6 @@ fi
 #
 #
 #
-##
 #
 #
 #
@@ -425,17 +420,13 @@ fi
 #
 #
 #
+# Remember, when files end in a * 
+# it means they are applications.
+# Try this:
 #
+# ./box
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# If you're not seeing the * after
+# this file name, you're probably
+# forgetting to use ls -F 
 
-#
-# Well that didn't work!
