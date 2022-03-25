@@ -1,1 +1,23 @@
-{"data":{"layout-restorer:data":{"main":{"dock":{"type":"split-area","orientation":"vertical","sizes":[0.5,0.5],"children":[{"type":"tab-area","currentIndex":0,"widgets":["editor:entrance/scroll"]},{"type":"tab-area","currentIndex":0,"widgets":["terminal:1"]}]},"current":"editor:entrance/scroll"},"down":{"size":0,"widgets":[]},"left":{"collapsed":false,"current":"filebrowser","widgets":["filebrowser","running-sessions","@jupyterlab/toc:plugin","extensionmanager.main-view"]},"right":{"collapsed":true,"widgets":["jp-property-inspector","debugger-sidebar"]},"relativeSizes":[0.23797056030389363,0.7620294396961063,0]},"@jupyterlab/settingeditor-extension:plugin":{"sizes":[0.25,0.75],"container":{"plugin":"@jupyterlab/fileeditor-extension:plugin","sizes":[0.5,0.5]}},"terminal:1":{"data":{"name":"1"}},"file-browser-filebrowser:cwd":{"path":"entrance"},"editor:entrance/scroll":{"data":{"path":"entrance/scroll","factory":"Editor"}}},"metadata":{"id":"new-workspace","last_modified":"2022-03-25T22:11:46.862738+00:00","created":"2022-03-25T22:11:46.862738+00:00"}}
+{
+   "data" : {
+      "editor:entrance/scroll" : {
+         "data" : {
+            "factory" : "Editor",
+            "path" : "entrance/scroll"
+         }
+      },
+      "file-browser-filebrowser:cwd" : {
+         "path" : "entrance"
+      },
+      "terminal:1" : {
+         "data" : {
+            "name" : "1"
+         }
+      }
+   },
+   "metadata" : {
+      "created" : "2022-03-25T22:11:46.862738+00:00",
+      "id" : "new-workspace",
+      "last_modified" : "2022-03-25T22:11:46.862738+00:00"
+   }
+}
