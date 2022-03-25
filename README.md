@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/nthiery%2Fbashcrawl/HEAD)
+
 Welcome!
 
 This is a game to teach you the basics of using a POSIX (Linux, BSD, UNIX) terminal.
