@@ -4,11 +4,12 @@ This is a game to teach you the basics of using a POSIX (Linux, BSD, UNIX) termi
 
 ## Try it online with mybinder
 
-Follow this link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/nthiery%2Fbashcrawl/HEAD?urlpath=%2Fterminals%2F1),
-wait a few seconds until the launcher appears, and click on the Terminal icon.
+- Follow this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/nthiery%2Fbashcrawl/HEAD),
+- Wait a few seconds to a minute until the launcher appears
+- Click on the Terminal icon.
 
-Note: mybinder sessions are temporary; the game will be reinitialized
-each time you disconnect.
+Note: mybinder sessions are temporary; the game is reinitialized each
+time you disconnect.
 [Learn more about the mybinder service](https://mybinder.readthedocs.io/en/latest/).
 
 ## Try it on your machine
