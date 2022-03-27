@@ -5,10 +5,6 @@ Welcome to bashcrawl!
 This is a game to teach you the basics of using a POSIX (Linux, BSD,
 UNIX) terminal, like the one where you are reading this message now.
 
-Note: If you are using mybinder.org to play the game -- which is
-likely if you read this text -- beware that your session is temporary
-and will be reinitialized once you disconnect.
-
 Your first move is very important.
 Type this into the terminal, and press RETURN:
 
@@ -16,3 +12,4 @@ Type this into the terminal, and press RETURN:
 
 You are now playing the game.
 May the gods save you.
+
