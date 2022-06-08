@@ -1,6 +1,10 @@
 #!/bin/bash
 
-env
+if [ $USER != "jovyan" ]; then
+    echo This script is for configuration of mybinder.org sessions
+    echo It should not be used otherwise
+    exit 0
+fi
 
 cat >> ~/.bashrc << EOF
 export PS1="\[\033[01;34m\]\w\[\033[00m\]\$ "
